@@ -4,6 +4,12 @@
   "description": "betmoar's Claude Code plugin marketplace.",
   "plugins": [
     {
+      "name": "cc-proxy",
+      "source": { "source": "github", "repo": "betmoar/cc-proxy-plugin" },
+      "description": "Z.ai and OpenRouter proxy for Claude Code — stateless local router with manual /model switching and per-provider auth.",
+      "category": "tooling"
+    },
+    {
       "name": "okf",
       "source": { "source": "github", "repo": "betmoar/cc-okf-plugin" },
       "description": "OKF knowledge-bundle skill and lifecycle commands.",
