@@ -1,0 +1,13 @@
+{
+  "name": "betmoar",
+  "owner": { "name": "betmoar" },
+  "description": "betmoar's Claude Code plugin marketplace.",
+  "plugins": [
+    {
+      "name": "okf",
+      "source": { "source": "github", "repo": "betmoar/cc-okf-plugin" },
+      "description": "OKF knowledge-bundle skill and lifecycle commands.",
+      "category": "documentation"
+    }
+  ]
+}
