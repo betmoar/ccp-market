@@ -46,9 +46,9 @@ Fix it once with either:
 - **Or configure a GitHub SSH key** if you'd rather use SSH.
 
 Verified end-to-end: with the `insteadOf` rule, `install okf@betmoar` succeeds.
-Tracking upstream as a Claude Code bug (install should gain the same SSH→HTTPS
-fallback `marketplace add` already has). Claude Code 2.1.183 / macOS at time of
-writing.
+Tracked upstream at [anthropics/claude-code#69587](https://github.com/anthropics/claude-code/issues/69587)
+(install should gain the same SSH→HTTPS fallback `marketplace add` already has).
+Claude Code 2.1.183 / macOS at time of writing.
 
 ## Plugins
 
