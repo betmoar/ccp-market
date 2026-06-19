@@ -24,6 +24,32 @@ submodules the plugin code.
 Install id is `<plugin>@<marketplace>`, where the marketplace name is `betmoar`
 (set by `name` in `marketplace.json`).
 
+### Requirements / known issue (HTTPS for install)
+
+`claude plugin install` clones a `github` plugin source over **SSH only**
+(`git@github.com:`), with no HTTPS fallback — unlike `marketplace add`, which
+falls back to HTTPS. On a machine with no GitHub SSH key this fails with
+`Permission denied (publickey)`, **even for a public repo**. Affects every
+installer, not just one machine.
+
+Fix it once with either:
+
+- **Route SSH clones through HTTPS** (works with no SSH key; public repos need no
+  auth):
+
+  ```
+  git config --global url."https://github.com/".insteadOf "git@github.com:"
+  ```
+
+  Rollback: `git config --global --unset url."https://github.com/".insteadOf`
+
+- **Or configure a GitHub SSH key** if you'd rather use SSH.
+
+Verified end-to-end: with the `insteadOf` rule, `install okf@betmoar` succeeds.
+Tracking upstream as a Claude Code bug (install should gain the same SSH→HTTPS
+fallback `marketplace add` already has). Claude Code 2.1.183 / macOS at time of
+writing.
+
 ## Plugins
 
 | Plugin | Source repo            | Description                                    |
