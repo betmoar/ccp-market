@@ -14,6 +14,12 @@
       "source": { "source": "github", "repo": "betmoar/cc-okf-plugin" },
       "description": "OKF knowledge-bundle skill and lifecycle commands.",
       "category": "documentation"
+    },
+    {
+      "name": "cc-repete",
+      "source": { "source": "github", "repo": "betmoar/cc-repete-plugin" },
+      "description": "Self-evolving autonomous loops for Claude Code — a Stop-hook loop engine that drives an agent toward a verifiable goal with an evolving payload, checkpoint gating, and a context budget.",
+      "category": "tooling"
     }
   ]
 }
