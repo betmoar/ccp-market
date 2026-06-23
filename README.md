@@ -57,6 +57,7 @@ Claude Code 2.1.183 / macOS at time of writing.
 | `cc-proxy`  | `betmoar/cc-proxy-plugin`  | Z.ai and OpenRouter proxy for Claude Code — stateless local router with manual `/model` switching and per-provider auth. |
 | `okf`       | `betmoar/cc-okf-plugin`    | OKF knowledge-bundle skill and lifecycle commands. |
 | `cc-repete` | `betmoar/cc-repete-plugin` | Self-evolving autonomous loops — a Stop-hook loop engine driving an agent toward a verifiable goal. |
+| `cc-reload` | `betmoar/cc-reload-plugin` | Session continuity across context resets — snapshots a digest before clear/compact and auto-rehydrates after. Non-looped companion to cc-repete. |
 
 ## Maintaining
 

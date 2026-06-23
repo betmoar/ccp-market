@@ -20,6 +20,12 @@
       "source": { "source": "github", "repo": "betmoar/cc-repete-plugin" },
       "description": "Self-evolving autonomous loops for Claude Code — a Stop-hook loop engine that drives an agent toward a verifiable goal with an evolving payload, checkpoint gating, and a context budget.",
       "category": "tooling"
+    },
+    {
+      "name": "cc-reload",
+      "source": { "source": "github", "repo": "betmoar/cc-reload-plugin" },
+      "description": "Session continuity across context resets for Claude Code. Snapshots a session digest before /clear, /compact, or auto-compaction and auto-rehydrates it after. The non-looped companion to cc-repete — stands down whenever a cc-repete loop is active.",
+      "category": "tooling"
     }
   ]
 }
