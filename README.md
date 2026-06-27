@@ -58,6 +58,7 @@ Claude Code 2.1.183 / macOS at time of writing.
 | `okf`       | `betmoar/cc-okf-plugin`    | OKF knowledge-bundle skill and lifecycle commands. |
 | `cc-repete` | `betmoar/cc-repete-plugin` | Self-evolving autonomous loops — a Stop-hook loop engine driving an agent toward a verifiable goal. |
 | `cc-reload` | `betmoar/cc-reload-plugin` | Session continuity across context resets — snapshots a digest before clear/compact and auto-rehydrates after. Non-looped companion to cc-repete. |
+| `cc-status` | `betmoar/cc-status-plugin` | Statusline framework — discovers per-plugin segment manifests, runs enabled ones, and joins them onto one bar. |
 
 ## Maintaining
 
