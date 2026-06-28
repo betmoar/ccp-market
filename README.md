@@ -59,6 +59,7 @@ Claude Code 2.1.183 / macOS at time of writing.
 | `cc-repete` | `betmoar/cc-repete-plugin` | Self-evolving autonomous loops — a Stop-hook loop engine driving an agent toward a verifiable goal. |
 | `cc-reload` | `betmoar/cc-reload-plugin` | Session continuity across context resets — snapshots a digest before clear/compact and auto-rehydrates after. Non-looped companion to cc-repete. |
 | `cc-status` | `betmoar/cc-status-plugin` | Statusline framework — discovers per-plugin segment manifests, runs enabled ones, and joins them onto one bar. |
+| `cc-agents` | `betmoar/cc-agents-plugin` | GLM-offload review agents — auto-convenes a multi-lens panel of parallel GLM reviewers on spec/plan writes, synthesized into one scored report. Requires cc-proxy. |
 
 ## Maintaining
 

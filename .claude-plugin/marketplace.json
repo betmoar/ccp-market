@@ -32,6 +32,12 @@
       "source": { "source": "github", "repo": "betmoar/cc-status-plugin" },
       "description": "A statusline framework for Claude Code that discovers per-plugin segment manifests, runs enabled ones, and joins them onto one bar — each plugin still works standalone.",
       "category": "tooling"
+    },
+    {
+      "name": "cc-agents",
+      "source": { "source": "github", "repo": "betmoar/cc-agents-plugin" },
+      "description": "GLM-offload review agents for Claude Code — auto-convenes a multi-lens panel of parallel GLM reviewers on spec and plan writes and synthesizes the findings into one scored report. Requires the cc-proxy plugin to run.",
+      "category": "tooling"
     }
   ]
 }
