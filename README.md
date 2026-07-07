@@ -60,6 +60,7 @@ Claude Code 2.1.183 / macOS at time of writing.
 | `cc-reload` | `betmoar/cc-reload-plugin` | Session continuity across context resets — snapshots a digest before clear/compact and auto-rehydrates after. Non-looped companion to cc-repete. |
 | `cc-status` | `betmoar/cc-status-plugin` | Statusline framework — discovers per-plugin segment manifests, runs enabled ones, and joins them onto one bar. |
 | `cc-agents` | `betmoar/cc-agents-plugin` | GLM-offload review agents — auto-convenes a multi-lens panel of parallel GLM reviewers on spec/plan writes, synthesized into one scored report. Requires cc-proxy. |
+| `cc-unknowns` | `betmoar/cc-unknowns-plugin` | Single-skill harness for surfacing unknowns before, during, and after implementation — classifies each task across known/unknown quadrants. |
 
 ## Maintaining
 

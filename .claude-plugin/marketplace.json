@@ -38,6 +38,12 @@
       "source": { "source": "github", "repo": "betmoar/cc-agents-plugin" },
       "description": "GLM-offload review agents for Claude Code — auto-convenes a multi-lens panel of parallel GLM reviewers on spec and plan writes and synthesizes the findings into one scored report. Requires the cc-proxy plugin to run.",
       "category": "tooling"
+    },
+    {
+      "name": "cc-unknowns",
+      "source": { "source": "github", "repo": "betmoar/cc-unknowns-plugin" },
+      "description": "Single-skill harness for surfacing unknowns before, during, and after implementation — classifies each task across known/unknown quadrants so a strong model doesn't confidently execute the wrong thing.",
+      "category": "tooling"
     }
   ]
 }
