@@ -44,6 +44,12 @@
       "source": { "source": "github", "repo": "betmoar/cc-unknowns-plugin" },
       "description": "Single-skill harness for surfacing unknowns before, during, and after implementation — classifies each task across known/unknown quadrants so a strong model doesn't confidently execute the wrong thing.",
       "category": "tooling"
+    },
+    {
+      "name": "cc-operator",
+      "source": { "source": "github", "repo": "betmoar/cc-operator-plugin" },
+      "description": "Chief-operator charter for Claude Code sessions — materializes an operating charter (solo + orchestrated modes), an append-only evidence ledger, and a Stop-hook completion gate into a project via /cc-operator:start.",
+      "category": "tooling"
     }
   ]
 }

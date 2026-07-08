@@ -61,6 +61,7 @@ Claude Code 2.1.183 / macOS at time of writing.
 | `cc-status` | `betmoar/cc-status-plugin` | Statusline framework — discovers per-plugin segment manifests, runs enabled ones, and joins them onto one bar. |
 | `cc-agents` | `betmoar/cc-agents-plugin` | GLM-offload review agents — auto-convenes a multi-lens panel of parallel GLM reviewers on spec/plan writes, synthesized into one scored report. Requires cc-proxy. |
 | `cc-unknowns` | `betmoar/cc-unknowns-plugin` | Single-skill harness for surfacing unknowns before, during, and after implementation — classifies each task across known/unknown quadrants. |
+| `cc-operator` | `betmoar/cc-operator-plugin` | Chief-operator charter — materializes an operating charter (solo + orchestrated modes), an append-only evidence ledger, and a Stop-hook completion gate via `/cc-operator:start`. |
 
 ## Maintaining
 
